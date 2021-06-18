@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Style for the heading of the page, updated semantics, fixed link to search engine optimization*/
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +52,8 @@ p {
     font-size: 16px;
 }
 
+/* Top image for page and background, updated semantics */
+
 figure {
     height: 800px;
     width: 100%;
@@ -59,15 +63,7 @@ figure {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Style for main articles of the page and images, updated semantics, rearranged order of code to make it align with page*/
 
 main {
     width: 75%;
@@ -129,6 +125,18 @@ main {
     font-size: 36px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Style for the sidebar of page, update semantics */
+
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -188,6 +196,7 @@ aside {
     max-width: 150px;
 }
 
+/* style for footer of page, updated semantics and heading */
 
 footer {
     padding: 30px;
